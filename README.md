@@ -48,3 +48,34 @@ The main goal is to clean the raw tweets, explore the distribution of sentiments
 ---
 
 ## Key Insights
+- Sentiments are fairly balanced across entities, with some skewed trends for specific topics.
+- Preprocessing significantly reduces noise in tweets, enabling better insights.
+- Visualizations reveal public perception of various entities on Twitter.
+
+---
+
+## How to Run
+1. Ensure Python is installed
+2. Install required libraries:
+    ```
+    pip install pandas matplotlib seaborn nltk
+    ```
+3. Run the script:
+    ```
+    python sentiment.py
+    ```
+4. The following image files will be saved:
+   - `sentiment_distribution.png`
+   - `sentiment_analysis_chart.png`
+   - `sentiment_per_entity.png`
+
+---
+
+## Credits
+This project was completed as part of the **Data Science Internship** at **Prodigy Infotech**.
+
+Created by **Mithra**  
+_B.Tech Artificial Intelligence & Data Science Student_
+
+---
+
